@@ -9,8 +9,10 @@ export default class App extends NextApp {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <ThemeProvider theme={theme}>
-        <ColorSwitcher />
+      <ThemeProvider theme={{
+        ...theme,
+        colors: { ...theme.colors, ...theme.colors.modes.dark, modes: {} }
+      }}>
         <Component {...pageProps} />
       </ThemeProvider>
     )

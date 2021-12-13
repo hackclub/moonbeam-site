@@ -12,6 +12,9 @@ export default function Home() {
             min-height: 100vh;
             color: var(--theme-ui-colors-green)!important;
           }
+          a{
+            color: var(--theme-ui-colors-green)!important;
+          }
           p{
             color: var(--theme-ui-colors-green)!important;
           }
