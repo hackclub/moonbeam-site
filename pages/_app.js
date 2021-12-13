@@ -6,6 +6,7 @@ import { ThemeProvider } from 'theme-ui'
 import Meta from '@hackclub/meta'
 import Head from 'next/head'
 import ColorSwitcher from '../components/color-switcher'
+import '../styles/crt.css'
 
 export default class App extends NextApp {
   render() {
