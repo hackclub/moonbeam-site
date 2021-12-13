@@ -1,5 +1,4 @@
-import * as React from 'react'
-import NextApp from 'next/app'
+import type { AppProps } from 'next/app'
 
 import '@hackclub/theme/fonts/reg-bold.css'
 import theme from '@hackclub/theme'
@@ -8,10 +7,10 @@ import ColorSwitcher from '../components/color-switcher'
 import Meta from '@hackclub/meta'
 import Head from 'next/head'
 
-export default class App extends NextApp {
-  render() {
-    const { Component, pageProps } = this.props
-    return (
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      {/* @ts-ignore */}
       <ThemeProvider theme={theme}>
         <Meta
           as={Head} // component to wrap tags in, defaults to React.Fragment
@@ -23,6 +22,6 @@ export default class App extends NextApp {
         <ColorSwitcher />
         <Component {...pageProps} />
       </ThemeProvider>
-    )
-  }
+    </>
+  )
 }
