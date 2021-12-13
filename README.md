@@ -1,2 +1,3 @@
-# moonbeam-site
-Website for hackclub's moonbeam project
+# Project Moonbeam Website
+
+Website for Hack Club's Moonbeam Project
