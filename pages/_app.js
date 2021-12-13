@@ -21,7 +21,7 @@ export default class App extends NextApp {
           as={Head}
           name="Hack Club"
           title="Project Moonbeam"
-          description="We're literally sending Hack Club to the moon with codea and lasers."
+          description="We're literally sending Hack Club to the moon with code and lasers."
           color="#ec3750"
         />
         <Component {...pageProps} />
