@@ -25,4 +25,4 @@ Then, open up your web browser and go to http://localhost:3000.
 
 Powered by [Next.js](https://nextjs.org) with [MDX](https://mdxjs.com), [Theme UI](https://theme-ui.com), & [Hack Club Theme](https://theme.hackclub.com).
 
-Code under [MIT License](LICENSE).
+Code under [MIT License](LICENSE.md).
